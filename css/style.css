@@ -1,0 +1,50 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 950px;
+    margin: 0;
+}
+th, td {
+    font-size: 18px;
+    padding: 10px;
+
+}
+th {
+    background: #4d4141;
+    color: #fff ;
+}
+td {
+    background: #bf1d55;
+}
+a {
+    text-decoration: none;
+    transition: 0.2s ease;
+    color: #3f75c5;
+}
+td:nth-child(7) > a {
+    color: #c22a2a;
+}
+a:hover {
+    opacity: 0.7;
+}
+p {
+    font-style: italic;
+}
+input, textarea, button {
+    padding: 10px;
+    display: block;
+    min-height: 30px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+textarea{
+    resize: vertical;
+    height: 80px;
+}
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
